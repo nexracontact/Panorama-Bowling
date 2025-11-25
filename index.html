@@ -361,11 +361,19 @@
                             </div>
                         </div>
                         
-                        <!-- TODO: Legg inn Google Maps embed eller kart her -->
-                        <div class="map-placeholder">
-                            <p>Kart vil bli lagt inn her</p>
-                            <!-- TODO: Legg inn Google Maps embed-kode eller lignende -->
-                        </div>
+                        <a href="https://www.google.com/maps/place/Panorama+Bowling/@62.7387737,7.1925539,17z/data=!3m1!4b1!4m6!3m5!1s0x4611569d2cd926b1:0x19ae67fbacee74b3!8m2!3d62.7387713!4d7.1951288!16s%2Fg%2F1tkqyvfg?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="map-link">
+                            <div class="map-container">
+                                <!-- TODO: Lagre kartbildet (Google Maps screenshot) som 'panorama-kart.jpg' i samme mappe -->
+                                <img src="panorama-kart.jpg" alt="Kart som viser plasseringen av Panorama Bowling på Verftsgata 10, 6416 Molde" class="map-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="map-placeholder-fallback" style="display: none;">
+                                    <p>Klikk for å åpne i Google Maps</p>
+                                    <p class="map-address">Verftsgata 10, 6416 Molde</p>
+                                </div>
+                                <div class="map-overlay">
+                                    <p class="map-text">📍 Klikk for å åpne i Google Maps</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
